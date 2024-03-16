@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    background-image: url(./image/chuahuong.jpg);
+    background-position: 500px;
+    padding: 100px;
+    background-color: rgb(145, 80, 80);
+    font-size: 50px;
+    color: rgb(219, 225, 229);
+    opacity: 1.5;
+    
+}
+div h3{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+header  {
+    background-color:wheat;
+    list-style-type: none;
+    float: none;
+    padding-bottom: 5px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+nav li{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+   padding-bottom: 20px;
+   padding-right: 10px;
+   font-size: 20px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+}
+nav a{
+    color: #485ab3;
+    text-decoration: none;
+      padding: 100px;
+      
+
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header h2{
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+    padding: 15px;
+}
+div h1.min{
+    font-weight: 900;
+}
+h1{
+    font-weight: 900;
+    font-size: x-large;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+h3{
+    border: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.min{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 100px 100px 100px 100px;
+    padding: 15px;    
+    text-align: justify;
+    font-size: 25px;
+   
+}
+#monter{
+    
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+#logo img{
+    width: 5%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #222;
+}
+.max
+{
+    font-size: 20px;
+padding: 20px;
+}
+#text-center p{
+    padding: 0px;
+}
+footer{
+    background-color: #8a8585;
+    padding: 20px;
+
+}
+
+.visua{
+    font-size: 15px;
+    padding: 20px;
+    padding-top:0;
+}
+
+.menu{
+    display: flex;
+    background-color:wheat;
+    padding: 10px;
+    margin: 20px 50px 0 50px;
+    
+}
+.menu li{
+    list-style-type: none;
+    margin: auto;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.menu li:hover{
+    background-color: rgb(60, 125, 222);
+    padding: 10px;
+    border-radius: 20px;
+}
+.menu a:hover{
+    color: rgb(62, 201, 214);
+}
+.menu .sub-menu{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.menu .sub-menu li{
+    padding: 5px;
+}
+.menu li:hover .sub-menu{
+    display: block;
+    background-color: wheat;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.miu-to{
+    color: rgb(31, 31, 203);
+    text-align: center;
+    font-size: x-large;
+    padding: 25px;
+}
+.text-center .meo-meo{
+    font-size: x-large;
+    padding: 25px;
+}
+.text-center .meo-meo{
+    font-size: 25px;
+}
+.text-center .miu-miu{
+    width: 700px;
+    height: 550px;
+}
+.men-men img{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #8a8585;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.no-no{
+    text-align: right;
+}
